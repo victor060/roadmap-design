@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conquistas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <h2>🎓 Roadmap Alunos</h2>
+            <div class="user-info">
+                <a href="/profile.html" class="btn-secondary" style="text-decoration: none;">👤 Perfil</a>
+                <a href="/dashboard.html" class="btn-secondary" style="text-decoration: none;">← Dashboard</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="achievements-container">
+        <div class="achievements-header">
+            <h1>🏆 Minhas Conquistas</h1>
+            <p>Desbloqueie conquistas completando etapas e mantendo sua sequência de estudos!</p>
+            <div class="achievements-summary">
+                <div class="summary-item">
+                    <span class="summary-value" id="unlockedCount">0</span>
+                    <span class="summary-label">Desbloqueadas</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-value" id="totalCount">0</span>
+                    <span class="summary-label">Total</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-value" id="progressPercent">0%</span>
+                    <span class="summary-label">Progresso</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="achievements-filters">
+            <button class="filter-btn active" data-filter="all">Todas</button>
+            <button class="filter-btn" data-filter="steps">📝 Etapas</button>
+            <button class="filter-btn" data-filter="roadmaps">🗺️ Roadmaps</button>
+            <button class="filter-btn" data-filter="streak">🔥 Sequência</button>
+            <button class="filter-btn" data-filter="special">⭐ Especiais</button>
+        </div>
+
+        <div id="achievementsList" class="achievements-grid">
+            <p class="loading">Carregando conquistas...</p>
+        </div>
+    </main>
+
+    <script src="js/achievements.js"></script>
+</body>
+</html>

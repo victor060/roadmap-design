@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "title": "Desenvolvimento Web Frontend",
+    "description": "Aprenda a criar interfaces modernas e responsivas",
+    "icon": "🎨",
+    "duration": "6 meses",
+    "level": "Iniciante",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Fundamentos HTML",
+        "description": "Aprenda a estrutura básica de páginas web",
+        "topics": ["Tags básicas", "Semântica HTML5", "Formulários", "Acessibilidade"],
+        "resources": ["MDN Web Docs", "W3Schools", "FreeCodeCamp"],
+        "estimatedTime": "2 semanas",
+        "completed": false
+      },
+      {
+        "id": 2,
+        "title": "Estilização com CSS",
+        "description": "Domine os estilos e layouts modernos",
+        "topics": ["Seletores", "Flexbox", "Grid", "Animações", "Responsividade"],
+        "resources": ["CSS-Tricks", "Flexbox Froggy", "Grid Garden"],
+        "estimatedTime": "3 semanas",
+        "completed": false
+      },
+      {
+        "id": 3,
+        "title": "JavaScript Básico",
+        "description": "Fundamentos da linguagem de programação web",
+        "topics": ["Variáveis e tipos", "Funções", "Arrays e Objetos", "DOM Manipulation"],
+        "resources": ["JavaScript.info", "Eloquent JavaScript", "MDN"],
+        "estimatedTime": "4 semanas",
+        "completed": false
+      },
+      {
+        "id": 4,
+        "title": "JavaScript Avançado",
+        "description": "Conceitos avançados e ES6+",
+        "topics": ["Promises", "Async/Await", "Fetch API", "ES6+ Features"],
+        "resources": ["You Don't Know JS", "JavaScript.info", "FreeCodeCamp"],
+        "estimatedTime": "3 semanas",
+        "completed": false
+      },
+      {
+        "id": 5,
+        "title": "Framework React",
+        "description": "Aprenda o framework mais popular",
+        "topics": ["Components", "Hooks", "State Management", "React Router"],
+        "resources": ["React Docs", "React Tutorial", "Scrimba React"],
+        "estimatedTime": "6 semanas",
+        "completed": false
+      },
+      {
+        "id": 6,
+        "title": "Projeto Final",
+        "description": "Construa um projeto completo",
+        "topics": ["Planejamento", "Implementação", "Deploy", "Portfolio"],
+        "resources": ["GitHub", "Netlify", "Vercel"],
+        "estimatedTime": "4 semanas",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Python para Data Science",
+    "description": "Análise de dados e Machine Learning com Python",
+    "icon": "🐍",
+    "duration": "8 meses",
+    "level": "Intermediário",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Python Básico",
+        "description": "Fundamentos da linguagem Python",
+        "topics": ["Sintaxe", "Estruturas de dados", "Funções", "OOP"],
+        "resources": ["Python.org", "Real Python", "Automate the Boring Stuff"],
+        "estimatedTime": "4 semanas",
+        "completed": false
+      },
+      {
+        "id": 2,
+        "title": "NumPy e Pandas",
+        "description": "Bibliotecas essenciais para análise de dados",
+        "topics": ["Arrays", "DataFrames", "Data Cleaning", "Manipulação"],
+        "resources": ["Pandas Docs", "NumPy Tutorial", "Kaggle Learn"],
+        "estimatedTime": "3 semanas",
+        "completed": false
+      },
+      {
+        "id": 3,
+        "title": "Visualização de Dados",
+        "description": "Criando gráficos e visualizações",
+        "topics": ["Matplotlib", "Seaborn", "Plotly", "Dashboard"],
+        "resources": ["Python Graph Gallery", "Seaborn Tutorial"],
+        "estimatedTime": "2 semanas",
+        "completed": false
+      },
+      {
+        "id": 4,
+        "title": "Estatística e Probabilidade",
+        "description": "Base matemática para Data Science",
+        "topics": ["Estatística descritiva", "Inferência", "Distribuições", "Testes"],
+        "resources": ["Khan Academy", "StatQuest", "Think Stats"],
+        "estimatedTime": "4 semanas",
+        "completed": false
+      },
+      {
+        "id": 5,
+        "title": "Machine Learning",
+        "description": "Algoritmos de aprendizado de máquina",
+        "topics": ["Scikit-learn", "Regressão", "Classificação", "Clustering"],
+        "resources": ["Scikit-learn Docs", "Coursera ML", "Fast.ai"],
+        "estimatedTime": "8 semanas",
+        "completed": false
+      },
+      {
+        "id": 6,
+        "title": "Projeto de Análise",
+        "description": "Análise completa de dados reais",
+        "topics": ["EDA", "Feature Engineering", "Modelagem", "Apresentação"],
+        "resources": ["Kaggle Datasets", "UCI ML Repository"],
+        "estimatedTime": "5 semanas",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Backend com Node.js",
+    "description": "Construa APIs e servidores robustos",
+    "icon": "⚙️",
+    "duration": "5 meses",
+    "level": "Intermediário",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Node.js Fundamentals",
+        "description": "Entenda o runtime JavaScript no servidor",
+        "topics": ["Event Loop", "Módulos", "NPM", "Async Programming"],
+        "resources": ["Node.js Docs", "NodeSchool", "FreeCodeCamp"],
+        "estimatedTime": "3 semanas",
+        "completed": false
+      },
+      {
+        "id": 2,
+        "title": "Express.js",
+        "description": "Framework web minimalista",
+        "topics": ["Rotas", "Middleware", "Request/Response", "Error Handling"],
+        "resources": ["Express Docs", "MDN Express Tutorial"],
+        "estimatedTime": "2 semanas",
+        "completed": false
+      },
+      {
+        "id": 3,
+        "title": "Banco de Dados",
+        "description": "SQL e NoSQL databases",
+        "topics": ["PostgreSQL", "MongoDB", "ORMs", "Queries"],
+        "resources": ["PostgreSQL Tutorial", "MongoDB University"],
+        "estimatedTime": "4 semanas",
+        "completed": false
+      },
+      {
+        "id": 4,
+        "title": "Autenticação e Segurança",
+        "description": "Proteja suas aplicações",
+        "topics": ["JWT", "OAuth", "Bcrypt", "HTTPS", "CORS"],
+        "resources": ["OWASP", "Auth0 Docs", "JWT.io"],
+        "estimatedTime": "3 semanas",
+        "completed": false
+      },
+      {
+        "id": 5,
+        "title": "RESTful APIs",
+        "description": "Design e implementação de APIs",
+        "topics": ["REST principles", "API Design", "Documentation", "Versioning"],
+        "resources": ["REST API Tutorial", "Swagger"],
+        "estimatedTime": "3 semanas",
+        "completed": false
+      },
+      {
+        "id": 6,
+        "title": "Deploy e DevOps",
+        "description": "Colocando aplicações em produção",
+        "topics": ["Docker", "CI/CD", "Cloud Platforms", "Monitoring"],
+        "resources": ["Docker Docs", "Heroku", "AWS Free Tier"],
+        "estimatedTime": "4 semanas",
+        "completed": false
+      }
+    ]
+  }
+]

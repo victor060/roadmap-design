@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Escolha seu Roadmap</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <h2>🎓 Roadmap Alunos</h2>
+            <div class="user-info">
+                <span id="userName">Carregando...</span>
+                <a href="/profile.html" class="btn-secondary" style="text-decoration: none;">👤 Perfil</a>
+                <button id="logoutBtn" class="btn-secondary">Sair</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="dashboard-container">
+        <section class="hero">
+            <h1>Escolha seu Caminho de Aprendizado</h1>
+            <p>Selecione um roadmap e comece sua jornada de conhecimento</p>
+        </section>
+
+        <section class="roadmaps-grid" id="roadmapsGrid">
+            <!-- Cards serão inseridos via JavaScript -->
+            <div class="loading">Carregando roadmaps...</div>
+        </section>
+    </main>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

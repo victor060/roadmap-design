@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "username": "aluno1",
+    "password": "senha123",
+    "email": "aluno1@email.com",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "username": "aluno2",
+    "password": "senha456",
+    "email": "aluno2@email.com",
+    "createdAt": "2024-01-02T00:00:00.000Z"
+  }
+]
